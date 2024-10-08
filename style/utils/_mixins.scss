@@ -1,0 +1,51 @@
+// Responsive Mixin
+@mixin respond-to($breakpoint) {
+  @if $breakpoint == "mobile" {
+    @media (max-width: $breakpoint-mobile) {
+      @content;
+    }
+  } @else if $breakpoint == "tablet" {
+    @media (max-width: $breakpoint-tablet) {
+      @content;
+    }
+  } @else if $breakpoint == "desktop" {
+    @media (max-width: $breakpoint-desktop) {
+      @content;
+    }
+  }
+}
+
+// Flexbox Styles
+
+// Flex Space even
+// Boby style
+
+@mixin flex-space-even {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+// Flex Column Layout
+// Header style
+
+@mixin flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+// Flex center Space Between
+// Navbar Style
+@mixin flex-space-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+// Flex Center items
+// Logo, nav_link and ul styles
+
+@mixin flex-center-items {
+  display: flex;
+  align-items: center;
+}

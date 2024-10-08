@@ -1,0 +1,35 @@
+@import "utils/variables";
+@import "utils/mixins";
+@import "_main";
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  @include flex-space-even;
+  min-width: 1440px;
+  min-height: 810px;
+  width: 100%;
+  height: 100%;
+  background-color: $primary-color;
+  color: $text-color;
+  margin: 50px auto;
+
+  // Responsive
+  @include respond-to("tablet") {
+    min-width: 768px;
+    min-height: auto;
+    margin: 0;
+    flex-direction: column;
+  }
+
+  @include respond-to("mobile") {
+    min-width: 320px;
+    min-height: auto;
+    flex-direction: column;
+    margin: 0;
+  }
+}

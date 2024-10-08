@@ -1,0 +1,53 @@
+// Colors
+$primary-color: #000000;
+$text-color: #fff;
+$hover-color: #3498db;
+
+// Typography
+$font-base: "Actor", sans-serif;
+$font-secondary: "Source Code Pro", monospace;
+$font-last-family: "Poppins", sans-serif;
+
+// Typography Size
+$font-size-li: 16px;
+$font-size-base: 22px;
+$font-size-logo: 24px;
+$font-size-head: 84px;
+
+// Typography line H
+
+$font-line-base: 22px;
+$font-line-logo: 36px;
+$font-line-head: 102px;
+$font-line-info: 34px;
+
+// Breakpoints
+$breakpoint-mobile: 320px;
+$breakpoint-tablet: 768px;
+$breakpoint-desktop: 1024px;
+
+// Breakpoints font size
+
+// Desktop
+// General base size for desktop
+$font-size-base: 16px;
+$font-size-h1: 36px;
+$font-size-h2: 30px;
+$font-size-logo: 24px;
+$font-size-li: 16px;
+
+// Tablet
+// General base size for tablet
+$font-size-base-sm: 14px;
+$font-size-h1-sm: 30px;
+$font-size-h2-sm: 26px;
+$font-size-logo-sm: 20px;
+$font-size-li-sm: 14px;
+
+// Mobile
+// General base size for mobile
+$font-size-base-xs: 12px;
+$font-size-h1-xs: 24px;
+$font-size-h2-xs: 20px;
+$font-size-logo-xs: 18px;
+$font-size-li-xs: 12px;
